@@ -1,0 +1,230 @@
+<web-app> 
+
+<servlet> 
+    <servlet-name>s1</servlet-name> 
+    <servlet-class>PatientServlet1</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s1</servlet-name> 
+     <url-pattern>/PatientServlet1</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s2</servlet-name> 
+    <servlet-class>DoctorServlet</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s2</servlet-name> 
+     <url-pattern>/DoctorServlet</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s3</servlet-name> 
+    <servlet-class>ProfileD</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s3</servlet-name> 
+     <url-pattern>/ProfileD</url-pattern> 
+</servlet-mapping>
+
+<servlet> 
+    <servlet-name>s4</servlet-name> 
+    <servlet-class>DoctorDisplay3</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s4</servlet-name> 
+     <url-pattern>/DoctorDisplay3</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s5</servlet-name> 
+    <servlet-class>PatientDisplay1</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s5</servlet-name> 
+     <url-pattern>/PatientDisplay1</url-pattern> 
+</servlet-mapping> 
+
+ 
+
+<servlet> 
+    <servlet-name>s6</servlet-name> 
+    <servlet-class>AddDoctor</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s6</servlet-name> 
+     <url-pattern>/AddDoctor</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s7</servlet-name> 
+    <servlet-class>AddPatient</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s7</servlet-name> 
+     <url-pattern>/AddPatient</url-pattern> 
+</servlet-mapping>
+
+
+
+<servlet> 
+    <servlet-name>s8</servlet-name> 
+    <servlet-class>editScreen1</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s8</servlet-name> 
+     <url-pattern>/editScreen1</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s9</servlet-name> 
+    <servlet-class>update2</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s9</servlet-name> 
+     <url-pattern>/update2</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s10</servlet-name> 
+    <servlet-class>update3</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s10</servlet-name> 
+     <url-pattern>/update3</url-pattern> 
+</servlet-mapping> 
+
+
+
+<servlet> 
+    <servlet-name>s11</servlet-name> 
+    <servlet-class>AppointDisplay</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s11</servlet-name> 
+     <url-pattern>/AppointDisplay</url-pattern> 
+</servlet-mapping>      
+
+
+<servlet> 
+    <servlet-name>s12</servlet-name> 
+    <servlet-class>Makeappointment</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s12</servlet-name> 
+     <url-pattern>/Makeappointment</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s13</servlet-name> 
+    <servlet-class>DoctorSearch</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s13</servlet-name> 
+     <url-pattern>/DoctorSearch</url-pattern> 
+</servlet-mapping>
+
+
+
+<servlet> 
+    <servlet-name>s14</servlet-name> 
+    <servlet-class>Signin</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s14</servlet-name> 
+     <url-pattern>/Signin</url-pattern> 
+</servlet-mapping>  
+
+<servlet> 
+    <servlet-name>s15</servlet-name> 
+    <servlet-class>AppointmentSubmit</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s15</servlet-name> 
+     <url-pattern>/AppointmentSubmit</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s16</servlet-name> 
+    <servlet-class>ProfileP</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s16</servlet-name> 
+     <url-pattern>/ProfileP</url-pattern> 
+</servlet-mapping>  
+
+
+
+<servlet> 
+    <servlet-name>s17</servlet-name> 
+    <servlet-class>Remove</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s17</servlet-name> 
+     <url-pattern>/Remove</url-pattern> 
+</servlet-mapping>  
+
+<servlet> 
+    <servlet-name>s18</servlet-name> 
+    <servlet-class>editScreen</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s18</servlet-name> 
+     <url-pattern>/editScreen</url-pattern> 
+</servlet-mapping>
+
+<servlet> 
+    <servlet-name>s19</servlet-name> 
+    <servlet-class>Remove1</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s19</servlet-name> 
+     <url-pattern>/Remove1</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s20</servlet-name> 
+    <servlet-class>Appoint</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s20</servlet-name> 
+     <url-pattern>/Appoint</url-pattern> 
+</servlet-mapping>  
+
+<servlet> 
+    <servlet-name>s21</servlet-name> 
+    <servlet-class>Remove3</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s21</servlet-name> 
+     <url-pattern>/Remove3</url-pattern> 
+</servlet-mapping> 
+
+
+
+
+
+<servlet> 
+    <servlet-name>s22</servlet-name> 
+    <servlet-class>Reviews</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s22</servlet-name> 
+     <url-pattern>/Reviews</url-pattern> 
+</servlet-mapping> 
+
+<servlet> 
+    <servlet-name>s23</servlet-name> 
+    <servlet-class>Reviews1</servlet-class> 
+</servlet> 
+<servlet-mapping> 
+     <servlet-name>s23</servlet-name> 
+     <url-pattern>/Reviews1</url-pattern> 
+</servlet-mapping> 
+
+
+
+
+ 
+
+</web-app> 

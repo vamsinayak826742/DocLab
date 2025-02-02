@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doclab -  Patient Registration Form</title>
+  <meta name="title" content="Doclab - home">
+  <meta name="description" content="This is a madical html template made by codewithsadee">
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <style>
+    body {
+      background-color: #f1f1f1;
+      font-family: Arial, sans-serif;
+    }
+    
+    h1 {
+      color: green;
+    }
+    
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+	margin-top:140px;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+	
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    
+    .form-group {
+      margin-bottom: 20px;
+	
+    }
+    
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+    }
+    
+    
+    
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+	
+      cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Doclab | Patient Register Form</h1>
+    <form  action="AddPatient">
+     <div class="form-group">
+        <label for="name">Id</label>
+        <input type="text" id="id" placeholder="Start with alphabets" name="id" required>
+      </div>
+	<div class="form-group">
+        <label for="name">Username</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+	  <div class="form-group">
+        <label for="name">Email</label>
+        <input type="text" id="Email" name="Email" required>
+      </div>
+	
+	<div class="form-group">
+        <label for="name">Mobile Number</label>
+        <input type="text" id="mobile" name="mobile" required>
+      </div>
+	  <div class="form-group">
+        <label for="name">password</label>
+        <input type="text" id="password" name="password" required>
+      </div>
+        <input type="submit" name="submit" value="Register"><br><br>
+        
+	
+	   
+    </form>
+
+</div>
+
+
+</body>
+</html>

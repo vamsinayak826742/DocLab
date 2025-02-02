@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Doclab Contact Form</title>
+  <style>
+    /* CSS styling for the contact form */
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      color: #333;
+    }
+
+    .container {
+      max-width: 400px;
+      margin: 0 auto;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    label {
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+
+    textarea {
+      height: 100px;
+    }
+
+    input[type="submit"] {
+      background-color: #4caf50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+      border-radius: 3px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body>
+  <h1><center>Doclab | Patient Review</center></h1>
+  <div class="container">
+    <form action="/vamsi/Reviews" method="post">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" required>
+      <br>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+      <br>
+      <label for="message">Write your Review</label>
+      <textarea id="message" name="review" required></textarea>
+      <br>
+      <label for="message">Ratting(out of 10)</label>
+      <input type="text" id="name" name="Rating" required>
+      
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+</body>
+</html>
