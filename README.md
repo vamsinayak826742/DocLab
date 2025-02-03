@@ -142,6 +142,6 @@ INSERT INTO reviews (patient_id, doctor_id, rating, review_text) VALUES
 ## Contributors
 - **Banavathu Vamsi Nayak**
 
-## If any help do you want regarding this project you can reach me out through LinkedIn https://www.linkedin.com/in/vamsinayak/
+** If any help do you want regarding this project you can reach me out through gmail vamsinayakbanavathu@gmail.com **
 
 ## Thank You
